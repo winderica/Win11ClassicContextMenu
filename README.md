@@ -16,9 +16,9 @@ It is only tested in Windows 11 build 22000.160 and may or may not work in other
 cd %SystemRoot%\System32
 icacls Windows.UI.FileExplorer.dll /save %Temp%\perms.txt
 takeown /f Windows.UI.FileExplorer.dll
-echo Y | cacls Windows.UI.FileExplorer.dll /G %USERNAME%:F
+echo Y| cacls Windows.UI.FileExplorer.dll /G %USERNAME%:F
 taskkill /f /im explorer.exe
-echo Y | move <PATH_TO_THE_DOWNLOADED_FILE> Windows.UI.FileExplorer.dll
+echo Y| move <PATH_TO_THE_DOWNLOADED_FILE> Windows.UI.FileExplorer.dll
 start explorer.exe
 icacls . /restore %Temp%\perms.txt
 ```
