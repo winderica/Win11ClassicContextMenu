@@ -4,7 +4,7 @@ Get back the classic context menu in Windows 11
 
 ## Disclaimer
 
-It is only tested in Windows 11 build 22000.160, 22458.1000 and may or may not work in other versions. Use at your own risk.
+It is only tested in Windows 11 build 22000.160, 22458.1000, 22463.1000 and may or may not work in other versions. Use at your own risk.
 
 ## Usage
 
